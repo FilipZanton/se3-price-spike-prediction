@@ -2,4 +2,5 @@
 
 Data Mining I project investigating whether unusually high electricity prices in Sweden's SE3 electricity price area can be predicted one day in advance.
 
+chmod +x setup.sh
 ./setup.sh
