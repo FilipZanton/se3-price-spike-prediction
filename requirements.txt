@@ -5,3 +5,5 @@ scikit-learn
 jupyter
 ipykernel
 requests
+entsoe-py
+python-dotenv
