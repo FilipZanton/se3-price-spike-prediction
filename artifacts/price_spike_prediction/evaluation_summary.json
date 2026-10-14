@@ -1,0 +1,34 @@
+{
+  "model": "DecisionTreeClassifier",
+  "model_parameters": {
+    "max_depth": 7,
+    "min_samples_leaf": 10,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "training_split": "train",
+  "prediction_method": "best_tree.predict(X_test)",
+  "test_hours": 7792,
+  "actual_spikes": 337,
+  "predicted_spikes": 1218,
+  "confusion_matrix": {
+    "TN": 6403,
+    "FP": 1052,
+    "FN": 171,
+    "TP": 166
+  },
+  "precision": 0.13628899835796388,
+  "recall": 0.49258160237388726,
+  "f1": 0.2135048231511254,
+  "monthly_grouping": "month feature (Europe/Stockholm calendar month)",
+  "test_predictions_sha256": "83985ac9ccf98951358dbe3cb6ea4748a3d9c5fbcb43450b6087c1803362f7ca",
+  "input_sha256": {
+    "se3_master_dataset.csv": "2f4d283d94cba0f8f955dfd861ec9dedb22bcfb11a7167b1b3545f4849abc0e2",
+    "se3_anomaly_labels.csv": "a778b524da451e85415eb1b94968e2aa9f2f28d19c92415874e065295d289069"
+  },
+  "library_versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  }
+}
